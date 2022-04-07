@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         mapView.addAnnotation(restaurantOne)
         
+        let restaurantTwo = RestaurantTwo(title: "My Cafe", type: "Breakfast & Lunch", coordinate: CLLocationCoordinate2D(latitude: 21.33809, longitude: -158.07793))
+        mapView.addAnnotation(restaurantTwo)
+        
         func centerMapOnLocation(location: CLLocation) {
             let coordinateRegion = MKCoordinateRegion(center: location.coordinate,latitudinalMeters: regionRadius,longitudinalMeters: regionRadius)
             mapView.setRegion(coordinateRegion, animated: true)

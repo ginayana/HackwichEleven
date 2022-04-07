@@ -14,6 +14,7 @@
 		F1AC082527FE6F520060490C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AC082427FE6F520060490C /* Assets.xcassets */; };
 		F1AC082827FE6F520060490C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AC082627FE6F520060490C /* LaunchScreen.storyboard */; };
 		F1AC083027FE71E80060490C /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC082F27FE71E80060490C /* Restaurant.swift */; };
+		F1AC083227FE74AE0060490C /* RestaurantTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC083127FE74AE0060490C /* RestaurantTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F1AC082727FE6F520060490C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1AC082927FE6F520060490C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1AC082F27FE71E80060490C /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F1AC083127FE74AE0060490C /* RestaurantTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				F1AC081B27FE6F4F0060490C /* AppDelegate.swift */,
 				F1AC081D27FE6F4F0060490C /* SceneDelegate.swift */,
 				F1AC081F27FE6F4F0060490C /* ViewController.swift */,
+				F1AC083127FE74AE0060490C /* RestaurantTwo.swift */,
 				F1AC082F27FE71E80060490C /* Restaurant.swift */,
 				F1AC082127FE6F4F0060490C /* Main.storyboard */,
 				F1AC082427FE6F520060490C /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				F1AC083027FE71E80060490C /* Restaurant.swift in Sources */,
 				F1AC082027FE6F4F0060490C /* ViewController.swift in Sources */,
 				F1AC081C27FE6F4F0060490C /* AppDelegate.swift in Sources */,
+				F1AC083227FE74AE0060490C /* RestaurantTwo.swift in Sources */,
 				F1AC081E27FE6F4F0060490C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
